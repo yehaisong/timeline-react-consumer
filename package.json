@@ -7,10 +7,11 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "vendor:sync": "./scripts/sync-vendor-package.sh"
   },
   "dependencies": {
-    "historical-timeline-react": "file:../timeline_react",
+    "historical-timeline-react": "file:./vendor/historical-timeline-react",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
   },
