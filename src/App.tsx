@@ -8,6 +8,9 @@ import './App.css';
 const events = timelineEventsData as TimelineEvent[];
 const timelineStart = new Date(Date.UTC(-5000, 0, 1));
 const timelineEnd = new Date(Date.UTC(100, 11, 31));
+const timelineCenter = new Date(0);
+timelineCenter.setUTCFullYear(0, 0, 1);
+timelineCenter.setUTCHours(0, 0, 0, 0);
 
 export default function App() {
   return (
@@ -28,6 +31,7 @@ export default function App() {
           events={events}
           startBound={timelineStart}
           endBound={timelineEnd}
+          initialCenter={timelineCenter}
           maxZoomUnit="century"
           minZoomUnit="day"
           initialZoomUnit="decade"
