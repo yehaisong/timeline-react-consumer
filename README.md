@@ -1,6 +1,9 @@
 # Timeline React Consumer
 
-This app is a local consumer test for `@yehaisong/timeline-react`.
+This app is a local consumer test for `historical-timeline-react`.
+
+Related repo:
+- component library: `https://github.com/yehaisong/timeline-react`
 
 It verifies:
 - local package installation
@@ -15,7 +18,7 @@ The current `package.json` uses this dependency:
 ```json
 {
   "dependencies": {
-    "@yehaisong/timeline-react": "file:../timeline_react"
+    "historical-timeline-react": "file:../timeline_react"
   }
 }
 ```
@@ -33,13 +36,13 @@ If your package folder is somewhere else, update the dependency path in `package
 Examples:
 
 ```json
-"@yehaisong/timeline-react": "file:/absolute/path/to/timeline_react"
+"historical-timeline-react": "file:/absolute/path/to/timeline_react"
 ```
 
 or
 
 ```json
-"@yehaisong/timeline-react": "file:../../some/other/path/timeline_react"
+"historical-timeline-react": "file:../../some/other/path/timeline_react"
 ```
 
 ## Install
@@ -65,7 +68,7 @@ npm run build
 - This app imports the package stylesheet with:
 
 ```ts
-import '@yehaisong/timeline-react/styles.css';
+import 'historical-timeline-react/styles.css';
 ```
 
 - The event detail panel in this app is consumer-side UI. It is not part of the base timeline component.

@@ -1,7 +1,7 @@
 import {
   VerticalTimeline,
   type TimelineEvent,
-} from '@yehaisong/timeline-react';
+} from 'historical-timeline-react';
 import './App.css';
 
 const events: TimelineEvent[] = [
@@ -91,7 +91,7 @@ export default function App() {
       <header className="consumer-header">
         <div>
           <p className="consumer-eyebrow">Package Integration Test</p>
-          <h1 className="consumer-title">`@yehaisong/timeline-react` in a second app</h1>
+          <h1 className="consumer-title">`historical-timeline-react` in a second app</h1>
         </div>
         <p className="consumer-summary">
           This app installs the local package, imports the exported stylesheet, and renders the

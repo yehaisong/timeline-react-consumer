@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import '@yehaisong/timeline-react/styles.css'
+import 'historical-timeline-react/styles.css'
 import './index.css'
 import App from './App.tsx'
 
