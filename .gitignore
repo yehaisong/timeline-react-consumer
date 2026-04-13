@@ -11,6 +11,8 @@ node_modules
 dist
 dist-ssr
 *.local
+!vendor/historical-timeline-react/dist/
+!vendor/historical-timeline-react/dist/**
 
 # Editor directories and files
 .vscode/*

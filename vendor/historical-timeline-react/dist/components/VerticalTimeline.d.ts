@@ -1,0 +1,2 @@
+import type { VerticalTimelineProps } from '../lib/types';
+export declare function VerticalTimeline({ events, startBound, endBound, maxZoomUnit, minZoomUnit, initialZoomUnit, initialStart, initialEnd, initialCenter, viewport: controlledViewport, onViewportChange, renderEvent, renderDetail, onEventClick, detailMode, height, unitHeight, clusterLaneLimit, display, theme, className, style, }: VerticalTimelineProps): import("react/jsx-runtime").JSX.Element;
