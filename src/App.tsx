@@ -33,7 +33,7 @@ export default function App() {
           endBound={timelineEnd}
           initialCenter={timelineCenter}
           maxZoomUnit="century"
-          minZoomUnit="day"
+          minZoomUnit="year"
           initialZoomUnit="decade"
           height="100%"
           unitHeight={88}
