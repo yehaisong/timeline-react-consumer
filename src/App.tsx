@@ -20,10 +20,6 @@ export default function App() {
           <p className="consumer-eyebrow">Package Integration Test</p>
           <h1 className="consumer-title">`historical-timeline-react` in a second app</h1>
         </div>
-        <p className="consumer-summary">
-          This app uses the library&apos;s historical event dataset locally in the consumer repo,
-          imports the exported stylesheet, and renders the timeline with only public props.
-        </p>
       </header>
 
       <section className="consumer-stage">
